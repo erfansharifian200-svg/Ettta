@@ -3,7 +3,7 @@ name: Eitaa Every 15 Minutes
 on:
   schedule:
     - cron: '*/15 * * * *'   # هر ۱۵ دقیقه یک‌بار
-  workflow_dispatch:         # امکان اجرای دستی
+  workflow_dispatch:
 
 jobs:
   forward:
